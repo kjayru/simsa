@@ -12,7 +12,7 @@ class Servicios extends Component
                             <h1>Nuestro servicios</h1>
                             <h2>Medición de energía Eléctrica</h2>
                         </div>
-                        <div className="col-md-6 text-left">
+                        <div className="col-md-6 text-right">
                             <p>Ofrecemos a nuestro clientes soluciones en 
                                 medición de energía para el área residencial,
                                 comerial e industrial. Así como el diseño de redes de 
@@ -27,15 +27,15 @@ class Servicios extends Component
                         <div className="col-md-12">
                             <ul>
                                 <li>
-                                    <img src="/images/icono4.png"/>
+                                    <img src="/images/icono4.png" className="img-fluid"/>
                                     <span>Residencial</span>
                                 </li>
                                 <li>
-                                    <img src="/images/icono5.png"/>
+                                    <img src="/images/icono5.png"  className="img-fluid"/>
                                     <span>Comercial</span>
                                 </li>
                                 <li>
-                                    <img src="/images/icono6.png"/>
+                                    <img src="/images/icono6.png"  className="img-fluid"/>
                                     <span>Industrial</span>
                                 </li>
                             </ul>

@@ -7,9 +7,10 @@ class Home extends Component{
         return(
             <div id="inicio">
 
-                
-                <div className="logo row h-100 justify-content-center align-items-center">
-                    <img src="./images/logocentro.png" className="img-fluid" />
+                <div className="container-fluid">
+                    <div className="logo row h-100 justify-content-center align-items-center">
+                        <img src="./images/logocentro.png" className="img-fluid" />
+                    </div>
                 </div>
             </div>
         )

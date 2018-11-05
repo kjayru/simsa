@@ -1,0 +1,33 @@
+.page-footer{
+    background: #F8A414;
+}
+.ft-link {
+    display: block;
+}
+.ft-link li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.ft-link li a{
+    color:black;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+a.linked {
+
+    display: inline-block;
+    background: black;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    padding: 3px 0 0 0px;
+    color: white;
+
+}
+.footer-copyright{
+    color:#8F969D;
+    font-size: 11px;
+    text-transform: uppercase;
+
+}

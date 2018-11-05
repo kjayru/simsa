@@ -1,9 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,4 +9,197 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.bg-dark {
+  background-color: #000 !important;
+}
+.cotiza-hoy {
+  background: #00E73C;
+  color: white;
+  border-radius: 22px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  position: relative;
+  margin-top: 3px;
+  display: inline-block;
+}
+.cotiza-hoy:hover{
+  color: gray;
+  background: white;
+  text-decoration: none;
+}
+ul.navbar-nav.only {
+  padding-left: 96px;
+}
+.left>div:first-child {
+  text-align: left;
+  padding-top: 131px;
+  padding-right: 160px;
+}
+.right>div:last-child {
+  text-align: left;
+  padding-top: 131px;
+  padding-left: 160px;
+}
+.product h2 {
+  color: #F8A414;
+  font-size: 35px;
+  padding-bottom: 14px;
+}
+.product p {
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 26px;
+  color: #A0A1A0;
+}
+a.btn-cotiza {
+  background: #00E73C;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 7px 19px 2px 19px;
+  position: absolute;
+  bottom: 30px;
+}
+.ap1:before {
+  content: "";
+  width: 1px;
+  height: 323px;
+  background: #F8A414;
+  position: absolute;
+  top: 88px;
+  left: -19px;
+}
+.ap2:before {
+  content: "";
+  width: 1px;
+  height: 323px;
+  background: #F8A414;
+  position: absolute;
+  top: 88px;
+  right: -19px;
+}
+.etiqueta{
+  color: #F8A414;
+    font-weight: bold;
+    font-size: 59px;
+    display: block;
+    
+}
+.left  .etiqueta{
+  text-align: right;
+}
+.right  .etiqueta{
+  text-align: left;
+}
+.op2 {
+  height: 590px;
+}
+.op3 img {
+  height: 550px;
+}
+.product img {
+  padding-top: 144px;
+}
+.op4 img {
+  height: 435px;
+}
+.op5 img {
+  height: 502px;
+}
+.title-prod {
+  background: #D8D8D8;
+}
+.title-prod h2 {
+  color: #F8A414;
+  font-size: 59px;
+  padding: 19px 0 4px 0;
+}
+#servicios h1 {
+  color: #eca63f;
+  font-size: 44px;
+}
+div#servicios .text-left {
+  padding-left: 83px;
+  padding-top: 6px;
+}
+#servicios .text-left h2 {
+  font-size: 45px;
+}
+#servicios .text-right {
+  font-size: 19px;
+  padding: 6px 42px 20px 136px;
+  text-align: left !important;
+  line-height: 24px;
+}
+#servicios ul li span {
+  font-size: 22px;
+}
+#inicio .container-fluid {
+  height: calc(100vh - 58px);
+}
+
+
+@media (min-width: 768px) {
+  .container {
+
+      position: relative;
+  }
+  .bloque25 {
+      background: url(/images/year25.png) no-repeat -198px 0;
+      height: 100vh;
+      display: block;
+      width: 100%;
+      background-size: cover;
+  }
+  p.bq1 {
+    padding-top: 43%;
+    text-align: right;
+    font-size: 41px;
+    padding-right: 50px;
+    line-height: 47px;
+  }
+  p.bq2 {
+    font-size: 34px;
+    text-align: right;
+    padding-right: 100px;
+    line-height: 23px;
+    padding-top: 0;
+  }
+  #servicios {
+    width: 100%;
+    height: 100vh;
+    padding-top: 150px;
+    text-align: center;
+    margin-bottom: 160px;
+  }
+  p.bq1 {
+    padding-top: 47%;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .bloque25 {
+    background: url(/images/year25.png) no-repeat -200px 0;
+    height: 100vh;
+    display: block;
+    width: 100%;
+    background-size: cover;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .bloque25 {
+    background: url(/images/year25.png) no-repeat -98px 0;
+    height: 100vh;
+    display: block;
+    width: 100%;
+}
+p.bq1 {
+  padding-top: 47%;
+}
 }

@@ -1,56 +1,30 @@
 import React,{Component} from 'react';
-
+import './footer.css';
 class Footer extends Component{
     render(){
         return(
             <div>
-                <footer className="page-footer font-small blue pt-4">
+                <footer className="page-footer font-small  pt-4">
                     <div className="container-fluid text-center text-md-left">
-                        <div className="row">
-                                <div className="col-md-6 mt-md-0 mt-3">
-                                    <h5 className="text-uppercase">Footer Content</h5>
-                                    <p>Here you can use rows and columns here to organize your footer content.</p>
-                                </div>
-                                <hr className="clearfix w-100 d-md-none pb-3"></hr>
-                                <div className="col-md-3 mb-md-0 mb-3">
-                                    <h5 className="text-uppercase">Links</h5>
+                        <div className="row justify-content-center">
+                                
+                               
+                                <div className="col-md-5 mb-md-0 mb-5 text-center">
+                                        <a href="#" className="linked"><i className="fab fa-linkedin-in"></i></a>
 
-                                    <ul className="list-unstyled">
-                                        <li>
-                                            <a href="#!">Link 1</a>
-                                        </li>
-                                        <li>
-                                            <a href="#!">Link 2</a>
-                                        </li>
-                                        <li>
-                                            <a href="#!">Link 3</a>
-                                        </li>
-                                        <li>
-                                            <a href="#!">Link 4</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div className="col-md-3 mb-md-0 mb-3">
-                                    <h5 className="text-uppercase">Links</h5>
-                                        <ul className="list-unstyled">
-                                            <li>
-                                                <a href="#!">Link 1</a>
-                                            </li>
-                                            <li>
-                                                <a href="#!">Link 2</a>
-                                            </li>
-                                            <li>
-                                                <a href="#!">Link 3</a>
-                                            </li>
-                                            <li>
-                                                <a href="#!">Link 4</a>
-                                            </li>
+                                        <ul className="ft-link">
+                                            <li><a href="#productos" >Productos</a></li>
+                                            <li><a href="#nosotros" >Nosotros</a></li>
+                                            <li><a href="#que-hacemos" >Que hacemos</a></li>
+                                            <li><a href="#contactos" >Contactos</a></li>
                                         </ul>
                                 </div>
+                                
                         </div>
                     </div>      
-                    <div className="footer-copyright text-center py-3">© 2018 Copyright:
-                        <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a>
+                    <div className="footer-copyright text-center py-3">
+                    Copyright © 2018. SIMSA All rights reserved<br/>
+                    Design by: COBO’S
                     </div>
                 </footer>
             </div>
